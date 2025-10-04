@@ -14,20 +14,17 @@
                 <li><a href="#">HOME</a></li>
                 <li><a href="#SKILLS">SKILLS</a></li>
                 <li><a href="#CERTIFICATE">CERTIFICATE</a></li>
-                <li><a href="">PROJECTS</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#PROJECTS">PROJECTS</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
             </ul>
         </nav>
+        <div class="Menu">
+            <div class="Menu-line"></div>
+            <div class="Menu-line"></div>
+            <div class="Menu-line"></div>
+        </div>
     </header>
-    <div class="bottom-nav">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#SKILLS">SKILLS</a></li>
-            <li><a href="#CERTIFICATE">CERTIFICATE</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">CONTACT</a></li>
-        </ul>
-    </div>
+
     <div class="About">
         <div class="About1">
             <h1>Hi, I am <br>SENBAGAPANDIYAN G</h1>
@@ -74,7 +71,7 @@
         </div>
         </div>
     </div>
-    <div class="CONTACT">
+    <div class="CONTACT" id="CONTACT">
         <h1>CONTACT</h1>
         <a href="tel:+916382754655">6382754655</a><br>
         <a href=
@@ -83,4 +80,11 @@
     </div>
     <footer><h1>&COPY;senbagapandiyan29092005@gmail.com</h1></footer>
 </body>
+<script>
+    const Menu = document.querySelector('.Menu')
+    const MenuList = document.querySelector('.header .menu')
+    Menu.addEventListener('click',()=>{
+        MenuList.classList.toggle('.showmenu')
+    })
+</script>
 </html>
