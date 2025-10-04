@@ -41,7 +41,7 @@ nav ul {
 nav ul li {
     margin-left: 20px;
 }
-nav ul li a {
+a {
     color: var(--light);
     text-decoration: none;
     font-size: 16px;
@@ -136,5 +136,67 @@ nav ul li a:hover {
 }
 .skills button:hover{
     width: 250px;
+}
+.Wordpress{
+    text-align: center;
+    padding: 0px 0px;
+    border: 3px;
+    border-color: var(--secondary);
+    border-style: solid;
+    display: inline-block;
+    width: 310px;
+    margin-left: 40px;
+    background-color: #032343;
+    color:var(--light) ;
+}
+.Wordpress img{
+    width: 300px;
+    height: 200px;
+}
+.Wordpress:hover{
+    width: 350px;
+
+}
+.Wordpress img:hover{
+    width: 350px;
+}
+.pro div{
+    width: 300px;
+    height: 400px;
+    border: 6px;
+    border-color: var(--dark);
+    border-style: solid;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    background-color: var(--dark);
+    color: var(--light);
+    
+}
+.PROJECTS img{
+    width: 290px;
+    height: 200px;
+    
+}
+.pro{
+    display: flex;
+    padding: 20px 20px;
+}
+.pro div:hover{
+    width: 310px;
+}
+footer{
+    background-color: var(--dark);
+    color: var(--secondary);
+    text-align: center;
+    size: 60px;
+    padding-bottom: 0%;
+    padding: 20px;
+    margin-bottom: 0%;
+}
+.CONTACT{
+    background-color: var(--dark);
+    color: var(--primary);
+    text-align: center;
 }
 
