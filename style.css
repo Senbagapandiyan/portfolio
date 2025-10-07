@@ -113,6 +113,10 @@ nav ul li a:hover {
 .skills button:hover{
     width: 250px;
 }
+a{
+    text-decoration: none;
+    color: var(--light);
+}
 .Wordpress{
     text-align: center;
     padding: 0px 0px;
@@ -209,4 +213,79 @@ footer{
     .showmenu{
         display: block;
     }
+    .PROJECTS div{
+        display: block;
+        width:100%;
+    }
+    .PROJECTS img{
+        display: block;
+        width:100%;
+    }
+    .CERTIFICATE div{
+        display: block;
+        width:100%;
+        text-align: center;
+    }
+    .CERTIFICATE img{
+        display: block;
+        width:100%;
+        text-align: center;
+    }
+    .SKILLS div{
+        display: block;
+    }
+    .SKILLS button{
+        width: 75%;
+        height: 100px;
+
+    }
+    .SKILLS{
+        text-align: center;
+    }
+    .sk{
+        text-align: left;
+        padding: 0px 10px;
+    }
+.About .About1{
+    width: 50%;
+    text-align: center;
+    padding: 30px 30px;
+    display:block;
+}
+.About img{
+    display:block;
+    width: 100%;
+    border-radius: 200px;
+    border-color:var(--dark);
+    border-style: solid;
+    border-width: 10-px;
+    
+}
+.About{
+    display: flex;
+    text-align: justify;
+    padding: 70PX 70PX;
+}
+.About .IMAGE{
+    padding-left: 25%;
+}
+.About .CV{
+    text-decoration: none;
+    color: var(--light);
+
+}
+.About button{
+    width: 400px;
+    height: 50px;
+    background-color: var(--dark);
+    border-radius: 12px;
+    transition: 0.9s;
+}
+.About .button{
+    padding: 40px 60px;
+
+}
+.About button:hover{
+    width: 200px;
+}
 }
