@@ -223,13 +223,11 @@ footer{
     }
     .CERTIFICATE div{
         display: block;
-        width:100%;
-        text-align: center;
+        width:80%;
     }
     .CERTIFICATE img{
         display: block;
-        width:100%;
-        text-align: center;
+        width:99%;
     }
     .SKILLS div{
         display: block;
@@ -238,6 +236,9 @@ footer{
         width: 75%;
         height: 100px;
 
+    }
+    .CV{
+        text-align: center;
     }
     .SKILLS{
         text-align: center;
@@ -249,7 +250,6 @@ footer{
 .About .About1{
     width: 50%;
     text-align: center;
-    padding: 30px 30px;
     display:block;
 }
 .About img{
@@ -265,6 +265,7 @@ footer{
     display: flex;
     text-align: justify;
     padding: 70PX 70PX;
+    text-align: center;
 }
 .About .IMAGE{
     padding-left: 25%;
