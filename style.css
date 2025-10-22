@@ -247,18 +247,19 @@ footer{
         text-align: left;
         padding: 0px 10px;
     }
-.About .About1{
-    width: 50%;
-    text-align: center;
-    display:block;
-}
 .About img{
-    display:block;
-    width: 100%;
+    display:inline-block;
+    width: 50%;
     border-radius: 200px;
     border-color:var(--dark);
     border-style: solid;
     border-width: 10-px;
+    
+}
+.About h1,p{
+    display:inline-block;
+    width: 100%;
+
     
 }
 .About{
