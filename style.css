@@ -256,6 +256,10 @@ footer{
     border-width: 10-px;
     
 }
+.button button,a
+{
+    width: 100%;
+}
 .About h1,p{
     display:inline-block;
     width: 100%;
